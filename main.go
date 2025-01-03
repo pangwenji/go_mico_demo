@@ -2,12 +2,12 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"go_mico_demo/internal/handler"
+	"go_mico_demo/internal/repository"
+	"go_mico_demo/internal/service"
+	"go_mico_demo/pkg/config"
+	"go_mico_demo/pkg/database"
 	"log"
-	"user-service/internal/handler"
-	"user-service/internal/repository"
-	"user-service/internal/service"
-	"user-service/pkg/config"
-	"user-service/pkg/database"
 )
 
 func main() {
